@@ -1,0 +1,90 @@
+.button-cursor {
+  cursor: pointer;
+}
+
+.radius-square {
+  border-radius: 0 !important;
+}
+
+.link-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  color: rgba(var(--tblr-link-color-rgb), var(--tblr-link-opacity, 1));
+}
+
+.link-button-underline {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  color: rgba(var(--tblr-link-color-rgb), var(--tblr-link-opacity, 1));
+}
+
+.icon-loading {
+  animation: arco-loading-circle 1s infinite cubic-bezier(0, 0, 1, 1);
+}
+
+.dropdown-item:hover {
+  background: #eeeeee !important;
+}
+
+
+.chat-bubble {
+  background-color: white !important;
+}
+
+.chat-bubble-me {
+  background-color: #a9ea7a !important;
+}
+
+.chat-status-text {
+  display: flex;
+  justify-content: center;
+  color: var(--tblr-secondary);
+}
+
+.modal-content {
+  border: #d5cccc solid 1px !important;
+}
+
+.modal-status {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.nav-link.active {
+  color: rgb(1, 136, 251) !important;
+}
+
+
+@font-face {
+  font-family: "Broadway";
+  src: local("Broadway"),
+    url("../../assets/fonts/BROADW.TTF");
+
+}
+
+.login_title {
+  font-family: "Broadway";
+  font-size: 36px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: #409eff;
+  text-shadow: 0px 0px 12px rgba(0, 0, 0, .12);
+}
+
+.login_title1 {
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: #666;
+  margin-bottom: 50px;
+}
